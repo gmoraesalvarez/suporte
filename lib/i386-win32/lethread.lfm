@@ -1,0 +1,27 @@
+object Form1: TForm1
+  Left = 956
+  Height = 109
+  Top = 124
+  Width = 323
+  BorderStyle = bsDialog
+  ClientHeight = 109
+  ClientWidth = 323
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Image1: TImage
+    Left = 8
+    Height = 90
+    Top = 16
+    Width = 90
+  end
+  object FileListBox1: TFileListBox
+    Left = 160
+    Height = 80
+    Top = 16
+    Width = 100
+    Directory = '/'
+    ItemHeight = 13
+    TabOrder = 0
+    Visible = False
+  end
+end
